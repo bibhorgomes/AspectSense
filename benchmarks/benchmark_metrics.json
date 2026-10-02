@@ -1,0 +1,32 @@
+{
+    "Dense (FAISS)": {
+        "Hit_Rate@5": 0.68,
+        "MRR@5": 0.48800000000000004,
+        "Aspect_Precision@5": 0.40399999999999997,
+        "Avg_Latency_ms": 19.344429969787598
+    },
+    "Sparse (BM25)": {
+        "Hit_Rate@5": 0.64,
+        "MRR@5": 0.5056666666666666,
+        "Aspect_Precision@5": 0.41200000000000003,
+        "Avg_Latency_ms": 128.30878734588623
+    },
+    "Hybrid (RRF)": {
+        "Hit_Rate@5": 0.78,
+        "MRR@5": 0.5059999999999999,
+        "Aspect_Precision@5": 0.3999999999999999,
+        "Avg_Latency_ms": 155.3971290588379
+    },
+    "Two-Stage (RRF + BGE)": {
+        "Hit_Rate@5": 0.74,
+        "MRR@5": 0.5766666666666667,
+        "Aspect_Precision@5": 0.48,
+        "Avg_Latency_ms": 280.6782102584839
+    },
+    "Metadata-Gated Two-Stage": {
+        "Hit_Rate@5": 0.94,
+        "MRR@5": 0.9,
+        "Aspect_Precision@5": 0.88,
+        "Avg_Latency_ms": 301.4466714859009
+    }
+}
